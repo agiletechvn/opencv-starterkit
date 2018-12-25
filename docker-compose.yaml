@@ -10,3 +10,9 @@ services:
     volumes:
       - ./src/:/home/opencv
     container_name: opencv
+    ports:
+      - 8888:8888
+    environment:
+      - PYTHON_VERSION=${PYTHON_VERSION}
+      - LC_ALL=C.UTF-8
+      - LANG=C.UTF-8

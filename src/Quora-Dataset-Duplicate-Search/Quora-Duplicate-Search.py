@@ -49,21 +49,20 @@ def run_and_plot(session_, input_tensor_, messages1_, messages2_, labels1_,label
 @click.command()
 @click.option('--fname', prompt='CSV fname', default='q_quora.csv',
               help='The person to greet.')
-def main(csv_fname):
+@click.option("--numlines", default=1000, help="Number of lines to read.")
+def main(fname, numlines):
     """Quora duplicate search."""    
-
+    
     question1 = {}
     question2 = {}
 
-    print("Loading data from {}".format(csv_fname))
+    print("Loading data from {}".format(fname))
 
-    numLines = int(input("Enter number of lines to read: "))
-
-    with open(csv_fname,'r') as f:
-        if numLines == -1:
+    with open(fname,'r') as f:
+        if numlines == -1:
             totalLines = f.readlines()[1:]
         else:
-            totalLines = f.readlines()[1:numLines]
+            totalLines = f.readlines()[1:numlines]
         for line in totalLines:
             try:
                 qid1, qid2, q1, q2 = line.strip().split(',')[1:5]
@@ -75,7 +74,7 @@ def main(csv_fname):
     print("Data loaded successfully")
 
     module_url = "https://tfhub.dev/google/universal-sentence-encoder/2"
-
+    # module_url = "https://216.239.32.27/google/universal-sentence-encoder/2"
     print("Loading model from {}".format(module_url))
     embed = hub.Module(module_url)
     print("Model loaded successfully")
