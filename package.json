@@ -1,0 +1,19 @@
+{
+  "name": "opencv-starterkit",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agiletech/opencv-starterkit.git"
+  },
+  "scripts": {
+    "start": "docker-compose up -d",
+    "stop": "docker-compose down",
+    "build": "docker-compose up --build",
+    "bash": "docker-compose exec opencv bash"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=2.15.9"
+  },
+  "license": "Apache-2.0"
+}
