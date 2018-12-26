@@ -4,6 +4,9 @@ Learn OpenCV  : C++ and Python Examples. You can find the details at [LearnOpenC
 ![demo](./demo.png)
 
 ## Installation
+
+Built image: `docker pull thanhtu/opencv_tf`
+
 ```bash
 yarn start
 yarn bash
