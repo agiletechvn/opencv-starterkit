@@ -2,33 +2,47 @@
 # Copyright 2017 by  Sunita Nayak <nayak.sunita@gmail.com>
 
 import cv2
+import click
+import os
 
-# Read the foreground image with alpha channel
-foreGroundImage = cv2.imread("foreGroundAsset.png", -1)
 
-# Split png foreground image
-b,g,r,a = cv2.split(foreGroundImage)
+@click.command()
+@click.option('--imagepath', prompt="image path", default='./',
+              help='The image path.')
+def main(imagepath):
+    """Alpha blending."""
 
-# Save the foregroung RGB content into a single object
-foreground = cv2.merge((b,g,r))
+    # Read the foreground image with alpha channel
+    foreGroundImage = cv2.imread(os.path.join(
+        imagepath, 'foreGroundAsset.png'), -1)
 
-# Save the alpha information into a single Mat
-alpha = cv2.merge((a,a,a))
+    # Split png foreground image
+    b, g, r, a = cv2.split(foreGroundImage)
 
-# Read background image
-background = cv2.imread("backGround.jpg")
+    # Save the foregroung RGB content into a single object
+    foreground = cv2.merge((b, g, r))
 
-# Convert uint8 to float
-foreground = foreground.astype(float)
-background = background.astype(float)
-alpha = alpha.astype(float)/255
+    # Save the alpha information into a single Mat
+    alpha = cv2.merge((a, a, a))
 
-# Perform alpha blending
-foreground = cv2.multiply(alpha, foreground)
-background = cv2.multiply(1.0 - alpha, background)
-outImage = cv2.add(foreground, background)
+    # Read background image
+    background = cv2.imread(os.path.join(imagepath, 'backGround.jpg'))
 
-cv2.imwrite("outImgPy.png", outImage)
+    # Convert uint8 to float
+    foreground = foreground.astype(float)
+    background = background.astype(float)
+    alpha = alpha.astype(float)/255
 
-cv2.imshow("outImg", outImage/255)
-cv2.waitKey(0)
+    # Perform alpha blending
+    foreground = cv2.multiply(alpha, foreground)
+    background = cv2.multiply(1.0 - alpha, background)
+    outImage = cv2.add(foreground, background)
+
+    cv2.imwrite(os.path.join(imagepath, "outImgPy.png"), outImage)
+
+    cv2.imshow(os.path.join(imagepath, "outImgPy.png"), outImage/255)
+    cv2.waitKey(0)
+
+
+if __name__ == '__main__':
+    main()
