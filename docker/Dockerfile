@@ -25,6 +25,12 @@ RUN apt-get update \
 
 RUN pip install numpy scipy click pandas matplotlib seaborn tensorflow-hub
 
+# install tesseract 4
+RUN add-apt-repository ppa:alex-p/tesseract-ocr \
+&& apt-get update \
+&& apt install -y tesseract-ocr libtesseract-dev \
+&& pip install pytesseract
+
 WORKDIR /
 
 ENV PYTHON_VERSION="3.5"
