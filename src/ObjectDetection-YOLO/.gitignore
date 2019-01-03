@@ -1,0 +1,6 @@
+yolov3.cfg
+yolov3.weights
+coco.names
+
+run_yolo_out_py.avi
+bird_yolo_out_py.jpg
