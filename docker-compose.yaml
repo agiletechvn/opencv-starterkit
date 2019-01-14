@@ -9,6 +9,7 @@ services:
     working_dir: /home/opencv
     volumes:
       - ./src/:/home/opencv
+      - ./build.sh:/usr/local/bin/build
     container_name: opencv
     ports:
       - 8888:8888
