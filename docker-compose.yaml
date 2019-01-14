@@ -16,3 +16,4 @@ services:
       - PYTHON_VERSION=${PYTHON_VERSION}
       - LC_ALL=C.UTF-8
       - LANG=C.UTF-8
+      # - DISPLAY=`ifconfig en0 inet | grep inet | awk '{print $2}'`:0

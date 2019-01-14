@@ -6,6 +6,9 @@ Code licensed under the MIT license, check LICENSE file.
 */
 
 #include <opencv2/opencv.hpp>
+// One (and only one) of your C++ files must define CVUI_IMPLEMENTATION
+// before the inclusion of cvui.h to ensure its implementaiton is compiled.
+#define CVUI_IMPLEMENTATION
 #include "cvui.h"
 
 #define WINDOW_NAME "CVUI Hello World!"
@@ -24,7 +27,7 @@ int main(int argc, const char *argv[])
 	while (true) {
 		// Fill the frame with a nice color
 		frame = cv::Scalar(49, 52, 49);
-
+		
 		// Buttons will return true if they were clicked, which makes
 		// handling clicks a breeze.
 		if (cvui::button(frame, 110, 80, "Hello, world!")) {

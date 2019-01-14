@@ -5,6 +5,7 @@ Code licensed under the MIT license, check LICENSE file.
 */
 
 #include <opencv2/opencv.hpp>
+#define CVUI_IMPLEMENTATION
 #include "cvui.h"
 
 #define WINDOW_NAME	"CVUI Canny Edge"
