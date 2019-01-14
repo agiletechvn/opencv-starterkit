@@ -36,7 +36,18 @@ WORKDIR /
 ENV PYTHON_VERSION="3.5"
 ENV OPENCV_VERSION="4.0.0"
 
-RUN wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip \
+ARG FAST_BUILD
+
+RUN if [ "FAST_BUILD" = "true" ] ; then
+
+# easiest way
+# mkdir build
+# cd build
+# cmake -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON -DBUILD_EXAMPLES=ON -DENABLE_PRECOMPILED_HEADERS=OFF ..
+# make -j4 && make install && ldconfig
+# rm -rf OpenCV
+
+wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip \
 && unzip ${OPENCV_VERSION}.zip \
 && mkdir /opencv-${OPENCV_VERSION}/cmake_binary \
 && cd /opencv-${OPENCV_VERSION}/cmake_binary \
@@ -57,12 +68,43 @@ RUN wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip \
   -DPYTHON_INCLUDE_DIR=$(python -c "from distutils.sysconfig import get_python_inc; print(get_python_inc())") \
   -DPYTHON_PACKAGES_PATH=$(python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())") \
   .. \
-&& make install 
-
-# make sure site-packages existed
-RUN ln -s \
+&& make install && ldconfig \
+&& rm /${OPENCV_VERSION}.zip \
+&& rm -rf /opencv-${OPENCV_VERSION} \
+&& ln -s \
   /usr/python/cv2/python-${PYTHON_VERSION}/cv2.cpython-*.so \
   /usr/local/lib/python${PYTHON_VERSION}/dist-packages/cv2.so
 
-RUN rm /${OPENCV_VERSION}.zip \
-    && rm -r /opencv-${OPENCV_VERSION} 
+else 
+
+apt -y install libgtk2.0-dev libtbb-dev qt5-default \
+&& git clone https://github.com/opencv/opencv.git \
+&& cd opencv \
+&& git checkout $OPENCV_VERSION \
+&& cd .. \
+ 
+&& git clone https://github.com/opencv/opencv_contrib.git \
+&& cd opencv_contrib \
+&& git checkout $OPENCV_VERSION \
+&& cd .. \
+&& cd opencv && mkdir build && cd build \
+&& cmake -D CMAKE_BUILD_TYPE=RELEASE \
+  -D CMAKE_INSTALL_PREFIX=/usr/local \
+  -D INSTALL_C_EXAMPLES=OFF \
+  -D INSTALL_PYTHON_EXAMPLES=OFF \
+  -D WITH_TBB=ON \
+  -D WITH_V4L=ON \
+  -D OPENCV_PYTHON3_INSTALL_PATH=/usr/local/lib/python${PYTHON_VERSION}/dist-packages/ \
+  -D WITH_QT=ON \
+  -D WITH_OPENGL=ON \
+  -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \
+  -D BUILD_EXAMPLES=ON .. \
+&& make -j4 \
+&& make install \
+&& rm -rf opencv \
+&& rm -rf opencv_contrib 
+
+fi
+
+# Done
+

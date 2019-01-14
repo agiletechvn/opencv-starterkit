@@ -1,7 +1,7 @@
 ## Compile the code
 
 ```bash
-apt install libopencv-dev -y
+apt install libopencv-dev libopencv-calib3d-dev -y
 g++ -std=c++0x `pkg-config --cflags opencv` hello-world.cpp `pkg-config --libs opencv` -o helloworld
 ```
 
