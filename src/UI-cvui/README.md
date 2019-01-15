@@ -3,6 +3,8 @@
 ```bash
 apt install libopencv-dev libopencv-calib3d-dev -y
 g++ -std=c++0x `pkg-config --cflags opencv` hello-world.cpp `pkg-config --libs opencv` -o helloworld
+# simple using opencv4:
+build file.cpp file2.cpp
 ```
 
 ## Run X11 UI from docker container on MacOSX
@@ -17,7 +19,7 @@ MACOSX_IP=`ifconfig en0 inet | grep inet | awk '{print $2}'`
 export DISPLAY=<MACOSX_IP>:0
 ```
 
-Currently libopencv-dev is opencv3
+Currently libopencv-dev is opencv4, including many small samples
 
 Please see the following [blog post](https://www.learnopencv.com/cvui-gui-lib-built-on-top-of-opencv-drawing-primitives/) for more details about this code
 

@@ -8,7 +8,7 @@ Code licensed under the MIT license, check LICENSE file.
 #define CVUI_IMPLEMENTATION
 #include "cvui.h"
 
-#define WINDOW_NAME	"CVUI Canny Edge"
+#define WINDOW_NAME "CVUI Canny Edge"
 
 int main(int argc, const char *argv[])
 {
@@ -23,13 +23,17 @@ int main(int argc, const char *argv[])
 	cv::namedWindow(WINDOW_NAME);
 	cvui::init(WINDOW_NAME);
 
-	while (true) {
+	while (true)
+	{
 		// Should we apply Canny edge?
-		if (use_canny) {
+		if (use_canny)
+		{
 			// Yes, we should apply it.
-			cv::cvtColor(lena, frame, CV_BGR2GRAY);
+			cv::cvtColor(lena, frame, cv::COLOR_BGR2GRAY);
 			cv::Canny(frame, frame, low_threshold, high_threshold, 3);
-		} else {
+		}
+		else
+		{
 			// No, so just copy the original image to the displaying frame.
 			lena.copyTo(frame);
 		}
@@ -37,7 +41,7 @@ int main(int argc, const char *argv[])
 		// Render the settings window to house the checkbox
 		// and the trackbars below.
 		cvui::window(frame, 10, 50, 180, 180, "Settings");
-		
+
 		// Checkbox to enable/disable the use of Canny edge
 		cvui::checkbox(frame, 15, 80, "Use Canny Edge", &use_canny);
 
@@ -54,7 +58,8 @@ int main(int argc, const char *argv[])
 		cv::imshow(WINDOW_NAME, frame);
 
 		// Check if ESC was pressed
-		if (cv::waitKey(30) == 27) {
+		if (cv::waitKey(30) == 27)
+		{
 			break;
 		}
 	}
