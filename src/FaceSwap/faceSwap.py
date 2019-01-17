@@ -47,13 +47,13 @@ def rectContains(rect, point) :
 #calculate delanauy triangle
 def calculateDelaunayTriangles(rect, points):
     #create subdiv
-    subdiv = cv2.Subdiv2D(rect);
+    subdiv = cv2.Subdiv2D(rect)
     
     # Insert points into subdiv
     for p in points:
         subdiv.insert(p) 
     
-    triangleList = subdiv.getTriangleList();
+    triangleList = subdiv.getTriangleList()
     
     delaunayTri = []
     
