@@ -7,7 +7,7 @@ import cv2
 # Read points from text file
 def readPoints(path) :
     # Create an array of points.
-    points = [];
+    points = []
     
     # Read points
     with open(path) as file :
