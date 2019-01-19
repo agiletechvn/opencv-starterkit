@@ -18,3 +18,4 @@ ENDMACRO()
 
 
 add_example(videoRead)
+add_example(peopledetect)
