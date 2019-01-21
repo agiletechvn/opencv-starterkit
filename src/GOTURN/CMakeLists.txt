@@ -4,10 +4,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/..)
 SET(OpenCV_DIR /usr/local/lib/cmake/opencv4)
-# /usr/local/include/opencv4/opencv2
-# /usr/local/lib/cmake/opencv4
-# /usr/local/lib/cmake/opencv4
-PROJECT(Calibration)
+
+PROJECT(GOTURN)
 
 find_package( OpenCV REQUIRED )
 
@@ -18,5 +16,4 @@ MACRO(add_example name)
   TARGET_LINK_LIBRARIES(${name} ${OpenCV_LIBS})
 ENDMACRO()
 
-
-add_example(videoRead)
+add_example(goturnTracker)

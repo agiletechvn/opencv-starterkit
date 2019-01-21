@@ -1,5 +1,5 @@
 #include <opencv2/opencv.hpp>
-#include <opencv2/video/tracking.hpp>
+#include <opencv2/tracking.hpp>
 #include <opencv2/core/ocl.hpp>
 
 using namespace cv;
@@ -22,7 +22,7 @@ int main(int argc, char **argv)
 
     Ptr<Tracker> tracker;
 
-#if (CV_MINOR_VERSION < 3)
+#if (CV_VERSION_MAJOR < 3)
     {
         tracker = Tracker::create(trackerType);
     }

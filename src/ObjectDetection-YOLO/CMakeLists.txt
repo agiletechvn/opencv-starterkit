@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.1)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/..)
-SET(OpenCV_DIR /usr/lib/x86_64-linux-gnu/cmake/opencv4)
+SET(OpenCV_DIR /usr/local/lib/cmake/opencv4)
 
 PROJECT(ObjectDetection-YOLO)
 
