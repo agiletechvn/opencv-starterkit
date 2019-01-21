@@ -3,20 +3,19 @@
 
 #include <QGraphicsView>
 
-
 class CamViewer : public QGraphicsView
 {
 
-public :
-    CamViewer(QWidget* centralWidget) : QGraphicsView(centralWidget) {}
-    CamViewer(QGraphicsScene * scene, QWidget * parent = 0) : QGraphicsView(scene, parent){}
-    ~CamViewer() {}
+  public:
+    CamViewer(QWidget *centralWidget) : QGraphicsView(centralWidget) {}
+    CamViewer(QGraphicsScene *scene, QWidget *parent = 0) : QGraphicsView(scene, parent) {}
+    ~CamViewer();
     void setImage(QImage im);
 
-protected :
-    void paintEvent(QPaintEvent* paintEventInfo);
+  protected:
+    void paintEvent(QPaintEvent *paintEventInfo);
 
-private :
+  private:
     QImage image;
 };
 

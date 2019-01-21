@@ -11,28 +11,28 @@ using namespace std;
 void display(Mat &im, Mat &bbox)
 {
   int n = bbox.rows;
-  for(int i = 0 ; i < n ; i++)
+  for (int i = 0; i < n; i++)
   {
-    line(im, Point2i(bbox.at<float>(i,0),bbox.at<float>(i,1)), Point2i(bbox.at<float>((i+1) % n,0), bbox.at<float>((i+1) % n,1)), Scalar(255,0,0), 3);
+    line(im, Point2i(bbox.at<float>(i, 0), bbox.at<float>(i, 1)), Point2i(bbox.at<float>((i + 1) % n, 0), bbox.at<float>((i + 1) % n, 1)), Scalar(255, 0, 0), 3);
   }
   imshow("Result", im);
 }
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
   // Read image
   Mat inputImage;
-  if(argc>1)
+  if (argc > 1)
     inputImage = imread(argv[1]);
   else
     inputImage = imread("qrcode-learnopencv.jpg");
 
-  QRCodeDetector qrDecoder = QRCodeDetector::QRCodeDetector();
+  QRCodeDetector *qrDecoder = new QRCodeDetector();
 
   Mat bbox, rectifiedImage;
 
-  std::string data = qrDecoder.detectAndDecode(inputImage, bbox, rectifiedImage);
-  if(data.length()>0)
+  std::string data = qrDecoder->detectAndDecode(inputImage, bbox, rectifiedImage);
+  if (data.length() > 0)
   {
     cout << "Decoded Data : " << data << endl;
 

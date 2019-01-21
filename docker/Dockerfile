@@ -47,6 +47,8 @@ RUN if [ "FAST_BUILD" = "true" ] ; then
 # make -j4 && make install && ldconfig
 # rm -rf OpenCV
 # if have 8 cores then make -j8
+# Dbus problem: apt-get install -y dbus-x11
+
 
 
 wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip \

@@ -1,12 +1,13 @@
-cmake_minimum_required(VERSION 2.8.12)
-
-PROJECT(opencv_tests)
-
-#set(OpenCV_DIR <specify your path to the opencv installation directory>installations/OpenCV4/lib/cmake/opencv4/)
-find_package( OpenCV REQUIRED )
-
+cmake_minimum_required(VERSION 3.1)
+# Enable C++11
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/..)
+SET(OpenCV_DIR /usr/local/lib/cmake/opencv4)
+
+PROJECT(HuMoments)
+
+find_package( OpenCV REQUIRED )
 
 include_directories( ${OpenCV_INCLUDE_DIRS})
 
@@ -16,4 +17,3 @@ MACRO(add_example name)
 ENDMACRO()
 
 add_example(HuMoments)
-add_example(shapeMatcher)

@@ -40,7 +40,7 @@ if __name__ == '__main__' :
         for j in xrange(0,3) :
             k = i + j * 4
             im_color = cv2.applyColorMap(im, k)
-            cv2.putText(im_color, colormap_name(k), (30, 180), cv2.FONT_HERSHEY_DUPLEX, 0.5, (255, 255, 255), 1, cv2.CV_AA);
+            cv2.putText(im_color, colormap_name(k), (30, 180), cv2.FONT_HERSHEY_DUPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA);
             
             ix200 = i * 200
             jx200 = j * 200
