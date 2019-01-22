@@ -12,6 +12,16 @@ yarn start
 yarn bash
 ```
 
+## Run X11 UI from docker container on MacOSX
+
+```bash
+brew install socat
+brew cask install xquartz
+socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
+open -a XQuartz
+```
+
+
 ## List of Blog Posts
 
 | Blog Post                                                                                                                                                                                                                                   |                                                                                                                        |

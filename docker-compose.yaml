@@ -20,4 +20,4 @@ services:
       - LANG=C.UTF-8
       # docker on linux will run faster with nvidia-docker
       # - DISPLAY=`ifconfig en0 inet | grep inet | awk '{print $2}'`:0
-      - DISPLAY=docker.for.mac.localhost:0 # socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\" > /dev/null &
+      - DISPLAY=docker.for.mac.localhost:0 # socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\" >> /dev/null &
