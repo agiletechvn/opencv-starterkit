@@ -11,9 +11,14 @@ services:
     volumes:
       - ./src/:/home/opencv
       - ./build.sh:/usr/local/bin/build
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      # defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
+      # apt install -y nvidia-340 mesa-utils && glxgears
+      # newest version: add-apt-repository ppa:graphics-drivers && apt update && apt install -y nvidia-390
     container_name: opencv
     ports:
       - 8888:8888
+    privileged: true
     environment:
       - PYTHON_VERSION=${PYTHON_VERSION}
       - LC_ALL=C.UTF-8

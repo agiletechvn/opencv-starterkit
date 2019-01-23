@@ -35,7 +35,7 @@ void MainWindow::on_pushButton_clicked()
     }
     else
     {
-        video.open(CAM_ID);
+        video.open("rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov");
         ui->pushButton->setText("Stop");
     }
 }
