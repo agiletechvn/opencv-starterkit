@@ -1,0 +1,11 @@
+Cython==0.26.1
+numpy==1.14.1
+nltk==3.2.4
+keras==2.1.2
+tensorflow==1.4.0
+gensim==2.3.0
+pandas==0.21.1
+sklearn
+h5py==2.7.1
+tqdm>=4.19.6
+fasttext>=0.8.3

@@ -1,0 +1,25 @@
+batch_size: 64
+coef_reg_cnn: 0.0001
+coef_reg_den: 0.0001
+confident_threshold: 0.5
+dense_size: 100
+dropout_rate: 0.5
+embedding_size: 100
+epochs: 1000
+fasttext_model: ./reddit_fasttext_model.bin
+filters_cnn: 256
+kernel_sizes_cnn: 1 2 3
+lear_metrics: binary_accuracy fmeasure
+lear_rate: 0.1
+lear_rate_decay: 0.1
+loss: binary_crossentropy
+model_from_saved: false
+model_name: cnn_model
+model_path: ./snips_pretrained/cnn_model
+module: fasttext
+optimizer: Adam
+show_examples: false
+text_size: 15
+val_every_n_epochs: 5
+val_patience: 5
+verbose: true
