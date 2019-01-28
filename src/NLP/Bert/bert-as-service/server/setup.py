@@ -29,8 +29,8 @@ setup(
         'termcolor>=1.1'
     ],
     extras_require={
-        'cpu': ['tensorflow>=1.9.0'],
-        'gpu': ['tensorflow-gpu>=1.9.0'],
+        'cpu': ['tensorflow>=1.5.0'],
+        'gpu': ['tensorflow-gpu>=1.5.0'],
         'http': ['flask', 'flask-compress', 'flask-cors', 'flask-json', 'bert-serving-client']
     },
     classifiers=(

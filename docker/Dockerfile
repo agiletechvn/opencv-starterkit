@@ -48,6 +48,7 @@ RUN if [ "FAST_BUILD" = "true" ] ; then
 # rm -rf OpenCV
 # if have 8 cores then make -j8
 # Dbus problem: apt-get install -y dbus-x11
+# ln -sF /usr/local/python/cv2/python-3.6/cv2.cpython-*.so $(python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())")/cv2.so
 
 
 

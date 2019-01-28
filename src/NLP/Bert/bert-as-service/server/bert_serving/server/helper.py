@@ -136,7 +136,7 @@ def check_tf_version():
     import tensorflow as tf
     tf_ver = tf.__version__.split('.')
     assert int(tf_ver[0]) >= 1 and int(
-        tf_ver[1]) >= 9, 'Tensorflow >=1.9 is required!'
+        tf_ver[1]) >= 5, 'Tensorflow >=1.9 is required!'
     return tf_ver
 
 
