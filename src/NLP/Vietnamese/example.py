@@ -32,7 +32,7 @@ class Example:
         results = sentiment(words)
         print(results)
 
-    def sampleFunc(arg):
+    def sampleFunc(self, arg):
         print('you called sampleFunc({})'.format(arg))
 
 
@@ -40,7 +40,7 @@ class Example:
 @click.option('--method', '-m')
 @click.option('--sentence', '-s')
 def main(method, sentence):
-    m = globals()['Example']()
+    m = Example()
     func = getattr(m, 'sampleFunc')
     func(sentence)
 
