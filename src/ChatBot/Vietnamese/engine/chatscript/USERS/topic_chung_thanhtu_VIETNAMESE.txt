@@ -1,0 +1,59 @@
+USERS/topic_chung_thanhtu_VIETNAMESE.txt
+jul2116 Jan30'19-11:54:01 Jan30'19-12:01:50 1548824300-13.2.0.8.9.0 |
+1 142428 0 DY 0 16 16 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~conversation ~myself #pending
+#`end topics
+$cs_randindex=442
+$cs_bot=Thanhtu
+$cs_login=chung
+$cs_token=161535
+$cs_control_main=~control
+$userprompt=chung: >
+$botprompt=HOAIAN: 
+$singleresponse=1
+$shutup=1
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ chào cậu
+ cậu tên là gì?
+#`end user
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Chào cậu
+ Tớ tên là Hoài An
+#`end chatbot

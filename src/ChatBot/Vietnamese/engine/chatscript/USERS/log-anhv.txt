@@ -25,3 +25,6 @@ Respond: user:anhv bot:hoaian ip: (~conversation) 3   khong ==> Mùa đông lạ
 Command: :build ThanhTu
 Command: :reset
 Start: user:anhv bot:thanhtu ip:127.0.0.1 rand:531 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30'19-11:24:16 Version:7.73 Build0: Build1:Jan30'19-11:24:16 0:Jan30'19-11:24:16 F:0 P:0 Why:~conversation.8.0.~control.0.0 
+Command: :build ThanhTu
+Command: :reset
+Start: user:anhv bot:thanhtu ip:127.0.0.1 rand:531 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30'19-11:50:21 Why:~conversation.8.0.~control.0.0  Version:8.6 Build0: Build1:Jan30'19-11:50:21 0:Jan30'19-11:24:16 F:0 P:0

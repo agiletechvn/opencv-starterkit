@@ -1,3 +1,4 @@
 ﻿$cs_trace=0
+$cs_time=0
 #`end variables
 ( thanhtu defaultbot defaultbot x100000 )

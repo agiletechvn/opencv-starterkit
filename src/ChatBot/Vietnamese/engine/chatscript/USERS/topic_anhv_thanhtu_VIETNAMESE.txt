@@ -14,6 +14,7 @@ $cs_login=anhv
 $cs_bot=Thanhtu
 $cs_randindex=530
 $cs_trace=0
+$cs_time=0
 #`end variables
 0 #set flags
 #`end fact sets

@@ -1,13 +1,13 @@
 ﻿+ thời_tiết 
-+ bóng_bàn 
-+ cầu_lông 
-+ ca_sỹ 
 + chẳng_có_gì 
 + thất_tình 
 + công_việc 
 + công_ty 
 + vẫn_còn 
 + hết_rồi 
-+ tạm_biệt 
++ bóng_bàn 
++ cầu_lông 
 + thanhtu 
 + defaultbot 
++ ca_sỹ 
++ tạm_biệt 

@@ -1,6 +1,6 @@
 USERS/topic_thanhtu_thanhtu_VIETNAMESE.txt
-jul2116 Jan30'19-11:24:24 Jan30'19-11:24:37 0 |
-1 2 0 DY 0 16 16 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+jul2116 Jan30'19-11:24:24 Jan30'19-12:00:31 0 |
+1 4 0 DY 0 16 16 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
 ~conversation ~weather #pending
 #`end topics
 $cs_randindex=2721
@@ -13,6 +13,7 @@ $botprompt=HOAIAN:
 $singleresponse=1
 $shutup=1
 $cs_trace=0
+$cs_time=0
 #`end variables
 0 #set flags
 #`end fact sets
@@ -20,7 +21,11 @@ $cs_trace=0
 #context 
  Xin chào
  Thời tiết hôm nay thế nào
+ Thời tiết hôm nay thế nào
+ Thời tiết hôm nay thế nào
 #`end user
  Chào cậu
+ Nắng mưa là chuyện của trời
+ Nắng mưa là chuyện của trời
  Nắng mưa là chuyện của trời
 #`end chatbot
