@@ -1,0 +1,25 @@
+USERS/topic_tạ_hoaian_VIETNAMESE.txt
+jul2116 Jan30'19-10:47:47 Jan30'19-10:47:47 0 |
+1 1 0 DY 0 16 16 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~conversation #pending
+~conversation + 2 l*N59 aaia 1 0 0 
+#`end topics
+$shutup=1
+$singleresponse=1
+$botprompt=HOAIAN: 
+$userprompt=tạ: >
+$cs_control_main=~control
+$cs_token=161535
+$cs_login=tạm biệt
+$cs_bot=Hoaian
+$cs_randindex=309
+$cs_trace=-1
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ local
+#`end user
+ Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.
+#`end chatbot

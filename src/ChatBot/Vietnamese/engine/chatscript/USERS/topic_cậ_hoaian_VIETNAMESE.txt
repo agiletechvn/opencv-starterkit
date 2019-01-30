@@ -1,0 +1,27 @@
+USERS/topic_cậ_hoaian_VIETNAMESE.txt
+jul2116 Jan30'19-10:47:47 Jan30'19-10:47:48 0 |
+1 2 0 DY 0 16 16 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~conversation #pending
+~conversation + 2 l*N59 aabi 2 0 0 
+#`end topics
+$cs_randindex=3792
+$cs_bot=Hoaian
+$cs_login=cậu sống ở đâu
+$cs_token=161535
+$cs_control_main=~control
+$userprompt=cậ: >
+$botprompt=HOAIAN: 
+$singleresponse=1
+$shutup=1
+$cs_trace=-1
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ local
+ local
+#`end user
+ Dạo này có phim gì hay nhỉ?
+ Cậu có vui không?
+#`end chatbot

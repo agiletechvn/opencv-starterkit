@@ -1,0 +1,203 @@
+﻿Incoming data- dố | hoaian | local
+New User
+User call ^hoaian():()
+..$cs_token = 4096(4096)
+..    $cs_token(4096) | 255(255) => 4351/0x00000000000010ff   
+..    $cs_token(4351) | 512(512) => 4863/0x00000000000012ff   
+..    $cs_token(4863) | 131072(131072) => 135935/0x00000000000212ff   
+..    $cs_token(135935) | 1024(1024) => 136959/0x00000000000216ff   
+..    $cs_token(136959) | 2048(2048) => 139007/0x0000000000021eff   
+..    $cs_token(139007) | 24576(24576) => 163583/0x0000000000027eff   
+..$cs_token(163583) -= 2048() =>  161535/0x00000000000276ff   
+..System call ^addtopic(`~conversation`)
+Adding pending topic ~conversation
+..NOPROBLEM ^addtopic(~conversation) => ``
+..$cs_control_main = ~control(~control)
+ dố: >
+..$userprompt = ^"%user: >"(dố: >)
+ HOAIAN: 
+..$botprompt = ^"HOAIAN: "(HOAIAN: )
+..$singleresponse = 1(1)
+..$shutup = 1(1)
+NOPROBLEM ^hoaian() => ``
+
+
+Input: 1 to hoaian: local 
+
+
+Input: local
+TokenControl: DO_SUBSTITUTE_SYSTEM DO_NUMBER_MERGE DO_PROPERNAME_MERGE DO_DATE_MERGE DO_INTERJECTION_SPLITTING DO_PARSE 
+
+
+Original User Input: local
+Tokenized into: local  
+Actual used input: local 
+
+  *** Sentence start: local (1) to local (1)
+
+Concepts: 
+
+1: local (raw):
+       +~fahrenheit
+   +~noun_infinitive
+   +~verb_present
+       +~celsius
+   +~verb_infinitive
+       +~unknownword
+   +~noun
+   +~verb
+   +~adjective
+   +~adverb
+       +~must_be_separate_phrasal_verb
+   +~adjective_normal
+   +~noun_singular
+   +~noun_phrase
+   +local
+ // 
+1: unknown-word (canonical):    +unknown-word
+ //  
+
+Sequences:
+
+After parse TokenFlags: USERINPUT 
+
+
+Reply input: local 
+  Pending topics: ~conversation 
+.Pushing Topic ~control
+.Enter Topic:
+
+
+.Topic: ~control linear Statements: 
+..try u:0.0 @0:        pattern: ( %input<%userfirstline ) 
+..( %input(1)<%userfirstline(1)-         Remaining pattern: )
+..try u:1.0 @0:        pattern: ( < shut up > ) 
+..( <+ shut-         Remaining pattern: up > )
+..try u:2.0 @0:        pattern: ( < talk > ) 
+..( <+ talk-         Remaining pattern: > )
+..try u:3.0 @0:        pattern: ( \[ callback \] ) 
+..( \[-         Remaining pattern: callback \] )
+..try u:4.0 @0:        pattern: ( \[ loopback \] ) 
+..( \[-         Remaining pattern: loopback \] )
+..try u:5.0 @0:        pattern: ( \[ alarm \] ) 
+..( \[-         Remaining pattern: alarm \] )
+..try u:6.0 @0:        pattern: ( < loopback test ) 
+..( <+ loopback-         Remaining pattern: test )
+..try u:7.0 @0:        pattern: ( < callback test ) 
+..( <+ callback-         Remaining pattern: test )
+..try u:8.0 @0:        pattern: ( < alarm test ) 
+..( <+ alarm-         Remaining pattern: test )
+..try u:9.0 @0:        pattern: ( ) 
+..( )+
+..  **  Match: u:  ( ) $_responsecount = %response ^if 00n( $singleresponse ) 00v{ $_responsecount = 0 } 004 ...   
+..~control rule u:9.0 ( )  $_responsecount = %response ^if 00n( $singlerespon
+...$_responsecount = %response(0)
+....If $singleresponse (1) PASS-if
+...$_responsecount = 0(0)
+...End If
+...$$currenttopic = %topic(~conversation)
+....If %response(0) ==  $_responsecount(0) PASS-if
+...System call ^nofail(`TOPIC ^rejoinder ( )`)
+....,.System call ^rejoinder()
+  rejoinder not set
+....,.NOPROBLEM ^rejoinder() => ``
+...NOPROBLEM ^nofail(TOPIC ^rejoinder ( )) => ``
+...End If
+....If %length(1) ==  0  ... FAIL-if
+....If %response(0) ==  $_responsecount(0) PASS-if
+...System call ^nofail(`TOPIC ^respond ( $$currenttopic )`)
+....,.System call ^respond(`~conversation`)
+....,...Respond trying ~conversation
+....,....Pushing Topic ~conversation
+....,....Enter Topic:
+
+
+....,....Topic: ~conversation random Statements: 
+....,....,try u:4.0 @0:        pattern: ( khỏe ) 
+....,....,( khỏe-         Remaining pattern: )
+....,....,try u:1.0 @0:        pattern: ( hi ) 
+....,....,( hi-         Remaining pattern: )
+....,....,try u:3.0 @0:        pattern: ( [ ( tạm biệt ) ( chào_nhé ) ] ) 
+....,....,( 
+....,....,[ 
+....,....,( tạm- ...)-
+....,....,( chào_nhé- )-
+....,....,]-
+....,....,        Remaining pattern: )
+....,....,try u:2.0 @0:        pattern: ( chào !nhé ) 
+....,....,( chào-         Remaining pattern: !nhé )
+....,....,try u:5.0 @0:        pattern: ( Khỏe ) 
+....,....,( Khỏe-         Remaining pattern: )
+....,....,try u:0.0 @0:        pattern: ( hello ) 
+....,....,( hello-         Remaining pattern: )
+....,....Result: NOPROBLEM Topic: ~conversation 
+....,...Popping Topic ~conversation
+....,.NOPROBLEM ^respond(~conversation) => ``
+...NOPROBLEM ^nofail(TOPIC ^respond ( $$currenttopic )) => ``
+...End If
+....If %response(0) ==  $_responsecount(0) PASS-if
+...System call ^keywordtopics()
+...NOPROBLEM ^keywordtopics() => ``
+...@8() = ^keywordtopics => last value @8[0] is 0 
+....loop(1000)
+....System call ^first(`@8subject`)
+....ENDRULE ^first(@8subject) => ``
+...end of loop
+...End If
+....If %response(0) ==  $_responsecount(0) PASS-if
+...System call ^nofail(`TOPIC ^respond ( ~keywordless )`)
+....,.System call ^respond(`~keywordless`)
+....,...Respond trying ~keywordless
+....,....Pushing Topic ~keywordless
+....,....Enter Topic:
+
+
+....,....Topic: ~keywordless linear Statements: 
+....,....,try u:0.0 @0:        pattern: ( < say _* ) 
+....,....,( <+ say-         Remaining pattern: _* )
+....,....Result: NOPROBLEM Topic: ~keywordless 
+....,...Popping Topic ~keywordless
+....,.NOPROBLEM ^respond(~keywordless) => ``
+...NOPROBLEM ^nofail(TOPIC ^respond ( ~keywordless )) => ``
+...End If
+....If %response(0) ==  $_responsecount(0)  AND %rand(31) >  50 FAIL-if
+....If %outputrejoinder (null)  OR %lastquestion (null) FAIL-if
+....If %response(0) ==  $_responsecount(0)  AND 
+....System call ^marked(`~conversation`)
+....FAILRULE ^marked(~conversation) => ``
+.... ^marked FAIL-if
+....If %response(0) ==  $_responsecount(0) PASS-if
+...System call ^keywordtopics()
+...NOPROBLEM ^keywordtopics() => ``
+...@8() = ^keywordtopics => last value @8[0] is 0 
+....loop(1000)
+....System call ^first(`@8subject`)
+....ENDRULE ^first(@8subject) => ``
+...end of loop
+...End If
+....If %response(0) ==  $_responsecount(0) PASS-if
+...System call ^nofail(`TOPIC ^gambit ( $$currenttopic )`)
+....,.System call ^gambit(`~conversation`)
+Gambit trying ~conversation
+....,....Pushing Topic ~conversation
+....,....Enter Topic:
+
+
+....,....Topic: ~conversation random Gambits: 
+....,....,try t:6.0 @0: 
+....,....,  **  Match: t:  Tình yêu như 2 đứa cùng ngậm sợi dây chun. Đứa này thả, đứa kia vỡ ...   
+....,....,~conversation rule t:6.0  Tình yêu như 2 đứa cùng ngậm sợi dây c
+....,....,Message: Tình yêu như 2 đứa cùng ngậm sợi dây chun. Đứa này thả, đứa kia vỡ mồm.
+....,....,**erasing ~conversation  t:  Tình yêu như 2 đứa cùng ngậm sợi dây chun. Đứa này thả, đứa kia vỡ ...   
+....,....Result: NOPROBLEM Topic: ~conversation 
+....,....Popping Topic ~conversation
+....,.NOPROBLEM ^gambit(~conversation) => ``
+...NOPROBLEM ^nofail(TOPIC ^gambit ( $$currenttopic )) => ``
+...End If
+....If %response(1) ==  $_responsecount(0) FAIL-if
+....If %response(1) ==  $_responsecount(0) FAIL-if
+.Result: NOPROBLEM Topic: ~control 
+Popping Topic ~control
+create ( `Tình yêu như 2 đứa cùng ngậm sợi dây chun.` chatoutput ~conversation..6.0.14.9.0 x1000000 ) Created 288
+create ( `Đứa này thả, đứa kia vỡ mồm.` chatoutput ~conversation..6.0.14.9.0 x1000000 ) Created 289
+Respond: user:dố bot:hoaian ip:127.0.0.1 (~conversation) 1  local ==> Tình yêu như 2 đứa cùng ngậm sợi dây chun. Đứa này thả, đứa kia vỡ mồm.  When:Jan30'19-10:47:46 Why:~conversation.6.0.~control.9.0   F:51 

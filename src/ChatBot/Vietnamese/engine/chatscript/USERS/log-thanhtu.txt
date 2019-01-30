@@ -1,0 +1,3 @@
+﻿No such bot  thanhtu - thanhtu - Xin chào status: hoaian   in topic_thanhtu_thanhtu_VIETNAMESE.txt at 1: ^thanhtu
+    Respond: user:thanhtu bot:thanhtu ip:127.0.0.1 (~conversation) 1  Xin chào ==> Chào cậu  When:Jan30'19-11:24:24 Why:~conversation.2.0.~control.9.0   F:3 
+Respond: user:thanhtu bot:thanhtu ip:127.0.0.1 (~weather) 2  Thời tiết hôm nay thế nào ==> Nắng mưa là chuyện của trời  When:Jan30'19-11:24:37 Why:~weather.0.0.~control.9.0   F:1 

@@ -1,0 +1,81 @@
+﻿ChatScript Version 7.73  compiled Dec 11 2017 12:40:44
+No such directory No such file or directory
+   in filesHoaiAn.txt at 0: #context 
+    
+>>Reading folder RAWDATA/HOAIAN/
+
+----Reading file weather.top
+Reading topic ~weather
+
+----Reading file sport.top
+Reading concept ~môn_thể_thao
+Reading topic ~sport
+
+----Reading file entertainment.top
+Reading concept ~i
+Reading concept ~yes
+Reading topic ~entertainment
+
+----Reading file emotiondisgust.top
+Reading topic ~emotiondisgust
+
+----Reading file study.top
+Reading topic ~study
+
+----Reading file emotionsad.top
+Reading concept ~sad
+Reading concept ~yes
+*** Warning- line 2 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~yes
+Reading concept ~no
+Reading concept ~love
+Reading concept ~friends
+Reading concept ~job
+Reading concept ~family
+Reading concept ~not_done
+Reading concept ~done
+Reading topic ~emotionhappy
+
+----Reading file myself.top
+Reading concept ~giới_tính
+Reading topic ~myself
+
+----Reading file love.top
+Reading topic ~love
+*** Warning- line 1 of love.top: TOPIC-1 Concept already defined with this topic name ~love
+
+----Reading file quibble.top
+Reading topic ~quibble_all
+
+----Reading file hobby.top
+Reading topic ~hobby
+
+----Reading file emotionhappy.top
+Reading topic ~emotionhappy
+
+----Reading file location.top
+Reading topic ~location
+
+----Reading file conversation.top
+Reading topic ~conversation
+
+----Reading file simplecontrol.top
+Reading outputmacro: ^hoaian
+Reading table ^tbl:defaultbot
+Reading topic ~control
+Reading topic ~xpostprocess
+
+----Reading file keywordless.top
+Reading topic ~keywordless
+
+<<end folder RAWDATA/HOAIAN
+*** Warning- line 4 of missingLabel.txt: At least one duplicate topic name, i.e., ~emotionhappy, which may intended if bot restrictions differ.
+
+WARNING SUMMARY: 
+  line 2 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~yes
+  line 1 of love.top: TOPIC-1 Concept already defined with this topic name ~love
+  line 4 of missingLabel.txt: At least one duplicate topic name, i.e., ~emotionhappy, which may intended if bot restrictions differ.
+3 serious warnings, 0 function warnings, 0 spelling warnings, 0 case warnings, 0 substitution warnings
+    
+
+Finished compile
+

@@ -1,0 +1,322 @@
+﻿evserver child fork requests: 0
+  evserver: running pid: 2767
+System startup createsystem Wed Jan 30 10:42:19 2019
+Server ChatScript EVSERVER Version 7.73 pid: 2767 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=0  fact=0  heap=256 Compiled: by version  ""
+Used 12MB: dict 1229 (108kb) hashdepths 213903.1221.4. words 1229 unusedbuckets 213903 fact 212 (10kb) heap 882kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,921 fact 799,788 stack/heap 99,117KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 2767 7.73 compiled Dec 11 2017 12:40:44 on host local port 1024 at Wed Jan 30 10:42:19 2019 serverlog:1 userlog: 1
+evserver: parent ready (pid = 2767), fork=0
+ServerPre: pid: 2767 anhv (hoaian) :build HoaiAn Jan 30 10:42:29 2019
+System startup HoaiAn Wed Jan 30 10:42:29 2019
+System startup createsystem Wed Jan 30 10:42:29 2019
+Server ChatScript EVSERVER Version 7.73 pid: 2767 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:42:29 by version 7.73 "HoaiAn"
+Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB 
+
+    *** Server WIDE OPEN to :command use.
+Respond: user:anhv bot:hoaian ip:127.0.0.1 () 0 :build HoaiAn  ==> System startup HoaiAn Wed Jan 30 10:42:29 2019  ChatScript Version 7.73  compiled Dec 11 2017 12:40:44    WARNING SUMMARY:     line 2 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~yes    line 1 of love.top: TOPIC-1 Concept already defined with this topic name ~love    line 4 of missingLabel.txt: At least one duplicate topic name, i.e., ~emotionhappy, which may intended if bot restrictions differ.  3 serious warnings, 0 function warnings, 0 spelling warnings, 0 case warnings, 0 substitution warnings          Finished compile    System startup createsystem Wed Jan 30 10:42:29 2019  Server ChatScript EVSERVER Version 7.73 pid: 2767 64 bit MACH compiled Dec 11 2017 12:40:44 host=local  Params:   dict:2097151 fact:800000 text:100000kb hash:215127             buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000  Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""  Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:42:29 by version 7.73 "HoaiAn"  Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb             buffer (6400kb) cache (5000kb)  Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB         *** Server WIDE OPEN to :command use.    When:Jan30 10:42:29 183ms 
+ServerPre: pid: 2767 anhv (hoaian) :reset Jan 30 10:42:29 2019
+Start: user:anhv bot:hoaian ip:127.0.0.1 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30 10:42:29 1ms Version:7.73 Build0: Build1:Jan30'19-10:42:29 Why:~conversation.8.0.~control.0.0 
+evserver child fork requests: 0
+  evserver: running pid: 3114
+System startup createsystem Wed Jan 30 10:45:03 2019
+Server ChatScript EVSERVER Version 7.73 pid: 3114 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:42:29 by version 7.73 "HoaiAn"
+Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 3114 7.73 compiled Dec 11 2017 12:40:44 on host local port 1024 at Wed Jan 30 10:45:03 2019 serverlog:1 userlog: 1
+evserver: parent ready (pid = 3114), fork=0
+evserver child fork requests: 0
+  evserver: running pid: 3396
+System startup createsystem Wed Jan 30 10:46:43 2019
+Server ChatScript EVSERVER Version 7.73 pid: 3396 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:42:29 by version 7.73 "HoaiAn"
+Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 3396 7.73 compiled Dec 11 2017 12:40:44 on host local port 1024 at Wed Jan 30 10:46:44 2019 serverlog:1 userlog: 1
+evserver: parent ready (pid = 3396), fork=0
+ServerPre: pid: 3396 :build HoaiAn (hoaian) local Jan 30 10:47:46 2019
+write out cache (0)
+Respond: user::build HoaiAn bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Jan30 10:47:46 58ms Why:~conversation.7.0.~control.9.0 
+ServerPre: pid: 3396 :reset (hoaian) local Jan 30 10:47:46 2019
+read in USERS/topic__hoaian_VIETNAMESE.txt cache (0)
+write out cache (0)
+Respond: user::reset bot:hoaian ip:127.0.0.1 (~conversation) 2 local  ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30 10:47:46 61ms Why:~conversation.8.0.~control.9.0 
+ServerPre: pid: 3396 :trace (hoaian) local Jan 30 10:47:46 2019
+read in USERS/topic__hoaian_VIETNAMESE.txt cache (0)
+write out cache (0)
+Respond: user::trace bot:hoaian ip:127.0.0.1 (~conversation) 3 local  ==> Mùa đông lạnh quá  When:Jan30 10:47:46 45ms Why:~conversation.10.0.~control.9.0 
+ServerPre: pid: 3396 có người yêu chưa (hoaian) local Jan 30 10:47:46 2019
+write out cache (0)
+Respond: user:có người yêu chưa bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Jan30 10:47:46 51ms Why:~conversation.7.0.~control.9.0 
+ServerPre: pid: 3396 ['học lớp mấy', 'lớp mấy'] (hoaian) local Jan 30 10:47:46 2019
+write out cache (0)
+Respond: user:['học lớp mấy', 'lớp mấy'] bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Cậu có vui không?  When:Jan30 10:47:46 77ms Why:~conversation.12.0.~control.9.0 
+ServerPre: pid: 3396 ['học trường gì'] (hoaian) local Jan 30 10:47:46 2019
+read in USERS/topic_họ_hoaian_VIETNAMESE.txt cache (0)
+write out cache (0)
+Respond: user:['học trường gì'] bot:hoaian ip:127.0.0.1 (~conversation) 2 local  ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30 10:47:46 49ms Why:~conversation.8.0.~control.9.0 
+ServerPre: pid: 3396 mày ngu thế (hoaian) local Jan 30 10:47:46 2019
+write out cache (0)
+Respond: user:mày ngu thế bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Cậu là con trai hay gái?  When:Jan30 10:47:46 65ms Why:~conversation.9.0.~control.9.0 
+ServerPre: pid: 3396 đần (hoaian) local Jan 30 10:47:46 2019
+write out cache (0)
+Respond: user:đần bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Mùa đông lạnh quá  When:Jan30 10:47:46 50ms Why:~conversation.10.0.~control.9.0 
+ServerPre: pid: 3396 dốt (hoaian) local Jan 30 10:47:46 2019
+write out cache (0)
+Respond: user:dốt bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Tình yêu như 2 đứa cùng ngậm sợi dây chun. Đứa này thả, đứa kia vỡ mồm.  When:Jan30 10:47:46 52ms Why:~conversation.6.0.~control.9.0 
+ServerPre: pid: 3396 hi (hoaian) local Jan 30 10:47:46 2019
+write out cache (0)
+Respond: user:hi bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30 10:47:47 66ms Why:~conversation.8.0.~control.9.0 
+ServerPre: pid: 3396 hello (hoaian) local Jan 30 10:47:47 2019
+write out cache (0)
+Respond: user:hello bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Dạo này có phim gì hay nhỉ?  When:Jan30 10:47:47 52ms Why:~conversation.11.0.~control.9.0 
+ServerPre: pid: 3396 chào (hoaian) local Jan 30 10:47:47 2019
+write out cache (0)
+Respond: user:chào bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Tình yêu như 2 đứa cùng ngậm sợi dây chun. Đứa này thả, đứa kia vỡ mồm.  When:Jan30 10:47:47 65ms Why:~conversation.6.0.~control.9.0 
+ServerPre: pid: 3396 tạm biệt (hoaian) local Jan 30 10:47:47 2019
+write out cache (0)
+Respond: user:tạm biệt bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30 10:47:47 63ms Why:~conversation.8.0.~control.9.0 
+ServerPre: pid: 3396 chào nhé (hoaian) local Jan 30 10:47:47 2019
+read in USERS/topic_chà_hoaian_VIETNAMESE.txt cache (0)
+write out cache (0)
+Respond: user:chào nhé bot:hoaian ip:127.0.0.1 (~conversation) 2 local  ==> Cậu có vui không?  When:Jan30 10:47:47 52ms Why:~conversation.12.0.~control.9.0 
+ServerPre: pid: 3396 khỏe khong (hoaian) local Jan 30 10:47:47 2019
+write out cache (0)
+Respond: user:khỏe khong bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Cậu là con trai hay gái?  When:Jan30 10:47:47 64ms Why:~conversation.9.0.~control.9.0 
+ServerPre: pid: 3396 Bạn có khỏe không (hoaian) local Jan 30 10:47:47 2019
+write out cache (0)
+Respond: user:Bạn có khỏe không bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Cậu có vui không?  When:Jan30 10:47:47 65ms Why:~conversation.12.0.~control.9.0 
+ServerPre: pid: 3396 khỏe không? (hoaian) local Jan 30 10:47:47 2019
+read in USERS/topic_khỏ_hoaian_VIETNAMESE.txt cache (0)
+write out cache (0)
+Respond: user:khỏe không? bot:hoaian ip:127.0.0.1 (~conversation) 2 local  ==> Mùa đông lạnh quá  When:Jan30 10:47:47 69ms Why:~conversation.10.0.~control.9.0 
+ServerPre: pid: 3396 Khỏe không (hoaian) local Jan 30 10:47:47 2019
+read in USERS/topic_khỏ_hoaian_VIETNAMESE.txt cache (0)
+write out cache (0)
+Respond: user:Khỏe không bot:hoaian ip:127.0.0.1 (~conversation) 3 local  ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Jan30 10:47:47 53ms Why:~conversation.7.0.~control.9.0 
+ServerPre: pid: 3396 bạn khỏe không (hoaian) local Jan 30 10:47:47 2019
+read in USERS/topic_bạ_hoaian_VIETNAMESE.txt cache (0)
+write out cache (0)
+Respond: user:bạn khỏe không bot:hoaian ip:127.0.0.1 (~conversation) 2 local  ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Jan30 10:47:47 65ms Why:~conversation.7.0.~control.9.0 
+ServerPre: pid: 3396 có thích bóng đá không (hoaian) local Jan 30 10:47:47 2019
+read in USERS/topic_có_hoaian_VIETNAMESE.txt cache (0)
+write out cache (0)
+Respond: user:có thích bóng đá không bot:hoaian ip:127.0.0.1 (~conversation) 2 local  ==> Cậu là con trai hay gái?  When:Jan30 10:47:47 63ms Why:~conversation.9.0.~control.9.0 
+ServerPre: pid: 3396 có thích chơi tennis không (hoaian) local Jan 30 10:47:47 2019
+read in USERS/topic_có_hoaian_VIETNAMESE.txt cache (0)
+write out cache (0)
+Respond: user:có thích chơi tennis không bot:hoaian ip:127.0.0.1 (~conversation) 3 local  ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30 10:47:47 89ms Why:~conversation.8.0.~control.9.0 
+ServerPre: pid: 3396 thời tiết hôm nay thế nào (hoaian) local Jan 30 10:47:47 2019
+write out cache (0)
+Respond: user:thời tiết hôm nay thế nào bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Jan30 10:47:47 54ms Why:~conversation.7.0.~control.9.0 
+ServerPre: pid: 3396 cậu sống ở đâu (hoaian) local Jan 30 10:47:47 2019
+write out cache (0)
+Respond: user:cậu sống ở đâu bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Dạo này có phim gì hay nhỉ?  When:Jan30 10:47:47 54ms Why:~conversation.11.0.~control.9.0 
+ServerPre: pid: 3396 tên gì (hoaian) local Jan 30 10:47:47 2019
+write out cache (0)
+Respond: user:tên gì bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Jan30 10:47:47 76ms Why:~conversation.7.0.~control.9.0 
+ServerPre: pid: 3396 mấy tuổi (hoaian) local Jan 30 10:47:47 2019
+write out cache (0)
+Respond: user:mấy tuổi bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Jan30 10:47:47 64ms Why:~conversation.7.0.~control.9.0 
+ServerPre: pid: 3396 bạn giới tính gì (hoaian) local Jan 30 10:47:47 2019
+read in USERS/topic_bạ_hoaian_VIETNAMESE.txt cache (0)
+write out cache (0)
+Respond: user:bạn giới tính gì bot:hoaian ip:127.0.0.1 (~conversation) 3 local  ==> Mùa đông lạnh quá  When:Jan30 10:47:48 51ms Why:~conversation.10.0.~control.9.0 
+ServerPre: pid: 3396 cậu là con trai hay con gái (hoaian) local Jan 30 10:47:48 2019
+read in USERS/topic_cậ_hoaian_VIETNAMESE.txt cache (0)
+write out cache (0)
+Respond: user:cậu là con trai hay con gái bot:hoaian ip:127.0.0.1 (~conversation) 2 local  ==> Cậu có vui không?  When:Jan30 10:47:48 67ms Why:~conversation.12.0.~control.9.0 
+ServerPre: pid: 3396 con trai à (hoaian) local Jan 30 10:47:48 2019
+write out cache (0)
+Respond: user:con trai à bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30 10:47:48 52ms Why:~conversation.8.0.~control.9.0 
+ServerPre: pid: 3396 ai là người tạo ra cậu (hoaian) local Jan 30 10:47:48 2019
+write out cache (0)
+Respond: user:ai là người tạo ra cậu bot:hoaian ip:127.0.0.1 (~conversation) 1 local  ==> Cậu có vui không?  When:Jan30 10:47:48 68ms Why:~conversation.12.0.~control.9.0 
+evserver child fork requests: 0
+  evserver: running pid: 4174
+System startup createsystem Wed Jan 30 10:53:21 2019
+Server ChatScript EVSERVER Version 7.73 pid: 4174 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:42:29 by version 7.73 "HoaiAn"
+Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 4174 7.73 compiled Dec 11 2017 12:40:44 on host local port 1024 at Wed Jan 30 10:53:21 2019 serverlog:1 userlog: 1
+evserver: parent ready (pid = 4174), fork=0
+evserver child fork requests: 0
+  evserver: running pid: 4244
+System startup createsystem Wed Jan 30 10:53:51 2019
+Server ChatScript EVSERVER Version 7.73 pid: 4244 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:42:29 by version 7.73 "HoaiAn"
+Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 4244 7.73 compiled Dec 11 2017 12:40:44 on host local port 1024 at Wed Jan 30 10:53:52 2019 serverlog:1 userlog: 1
+evserver: parent ready (pid = 4244), fork=0
+ServerPre: pid: 4244 anhv (hoaian) :build HoaiAn Jan 30 10:54:20 2019
+System startup HoaiAn Wed Jan 30 10:54:20 2019
+System startup createsystem Wed Jan 30 10:54:21 2019
+Server ChatScript EVSERVER Version 7.73 pid: 4244 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:54:20 by version 7.73 "HoaiAn"
+Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB 
+
+    *** Server WIDE OPEN to :command use.
+Respond: user:anhv bot:hoaian ip:127.0.0.1 () 0 :build HoaiAn  ==> System startup HoaiAn Wed Jan 30 10:54:20 2019  ChatScript Version 7.73  compiled Dec 11 2017 12:40:44    WARNING SUMMARY:     line 2 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~yes    line 1 of love.top: TOPIC-1 Concept already defined with this topic name ~love    line 4 of missingLabel.txt: At least one duplicate topic name, i.e., ~emotionhappy, which may intended if bot restrictions differ.  3 serious warnings, 0 function warnings, 0 spelling warnings, 0 case warnings, 0 substitution warnings          Finished compile    System startup createsystem Wed Jan 30 10:54:21 2019  Server ChatScript EVSERVER Version 7.73 pid: 4244 64 bit MACH compiled Dec 11 2017 12:40:44 host=local  Params:   dict:2097151 fact:800000 text:100000kb hash:215127             buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000  Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""  Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:54:20 by version 7.73 "HoaiAn"  Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb             buffer (6400kb) cache (5000kb)  Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB         *** Server WIDE OPEN to :command use.    When:Jan30 10:54:21 202ms 
+ServerPre: pid: 4244 anhv (hoaian) :reset Jan 30 10:54:21 2019
+Start: user:anhv bot:hoaian ip:127.0.0.1 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30 10:54:21 2ms Version:7.73 Build0: Build1:Jan30'19-10:54:20 Why:~conversation.8.0.~control.0.0 
+ServerPre: pid: 4244 anhv (hoaian) :build HoaiAn Jan 30 10:55:27 2019
+System startup HoaiAn Wed Jan 30 10:55:27 2019
+System startup createsystem Wed Jan 30 10:55:27 2019
+Server ChatScript EVSERVER Version 7.73 pid: 4244 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:55:27 by version 7.73 "HoaiAn"
+Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB 
+
+    *** Server WIDE OPEN to :command use.
+Respond: user:anhv bot:hoaian ip:127.0.0.1 () 0 :build HoaiAn  ==> System startup HoaiAn Wed Jan 30 10:55:27 2019  ChatScript Version 7.73  compiled Dec 11 2017 12:40:44    WARNING SUMMARY:     line 2 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~yes    line 1 of love.top: TOPIC-1 Concept already defined with this topic name ~love    line 4 of missingLabel.txt: At least one duplicate topic name, i.e., ~emotionhappy, which may intended if bot restrictions differ.  3 serious warnings, 0 function warnings, 0 spelling warnings, 0 case warnings, 0 substitution warnings          Finished compile    System startup createsystem Wed Jan 30 10:55:27 2019  Server ChatScript EVSERVER Version 7.73 pid: 4244 64 bit MACH compiled Dec 11 2017 12:40:44 host=local  Params:   dict:2097151 fact:800000 text:100000kb hash:215127             buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000  Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""  Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:55:27 by version 7.73 "HoaiAn"  Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb             buffer (6400kb) cache (5000kb)  Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB         *** Server WIDE OPEN to :command use.    When:Jan30 10:55:28 200ms 
+ServerPre: pid: 4244 anhv (hoaian) :reset Jan 30 10:55:28 2019
+Start: user:anhv bot:hoaian ip:127.0.0.1 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30 10:55:28 1ms Version:7.73 Build0: Build1:Jan30'19-10:55:27 Why:~conversation.8.0.~control.0.0 
+ServerPre: pid: 4244 anhv (hoaian) :build ThanhTu Jan 30 10:59:15 2019
+System startup ThanhTu Wed Jan 30 10:59:15 2019
+System startup createsystem Wed Jan 30 10:59:15 2019
+Server ChatScript EVSERVER Version 7.73 pid: 4244 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:59:15 by version 7.73 "ThanhTu"
+Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB 
+
+    *** Server WIDE OPEN to :command use.
+Respond: user:anhv bot:hoaian ip:127.0.0.1 () 0 :build ThanhTu  ==> System startup ThanhTu Wed Jan 30 10:59:15 2019  ChatScript Version 7.73  compiled Dec 11 2017 12:40:44    WARNING SUMMARY:     line 2 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~yes    line 1 of love.top: TOPIC-1 Concept already defined with this topic name ~love    line 4 of missingLabel.txt: At least one duplicate topic name, i.e., ~emotionhappy, which may intended if bot restrictions differ.  3 serious warnings, 0 function warnings, 0 spelling warnings, 0 case warnings, 0 substitution warnings          Finished compile    System startup createsystem Wed Jan 30 10:59:15 2019  Server ChatScript EVSERVER Version 7.73 pid: 4244 64 bit MACH compiled Dec 11 2017 12:40:44 host=local  Params:   dict:2097151 fact:800000 text:100000kb hash:215127             buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000  Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""  Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:59:15 by version 7.73 "ThanhTu"  Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb             buffer (6400kb) cache (5000kb)  Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB         *** Server WIDE OPEN to :command use.    When:Jan30 10:59:15 204ms 4 ^if 00P( %response == $_responsecount and %rand > 50 ) 00T{ ^nofail ( TOPIC ^respond ( ~quibble_all ) ) } 004 ^if 00F( %outputrejoinder or %lastquestion ) 00q{ ^end ( TOPIC ) } 004 ^if 00%( %response == $_responsecount and ^marked ( $$currenttopic ) ) 00U{ ^nofail ( TOPIC ^gambit ( $$currenttopic ) ) } 004 ^if 00A( %response == $_responsecount ) 02E{ @8 = ^keywordtopics ( ) ^loop ( -1 ) 01% { $$topic = ^first ( @8subject ) ^nofail ( TOPIC ^gambit ( $$topic ) ) ^if 00A( %response != $_responsecount ) 00p{ ^end ( RULE ) } 004 } } 004 ^if 00A( %response == $_responsecount ) 00U{ ^nofail ( TOPIC ^gambit ( $$currenttopic ) ) } 004 ^if 00A( %response == $_responsecount ) 02C{ @8 = ^gambittopics ( ) ^loop ( -1 ) 01$ { $$topic = ^pick ( @8subject ) ^nofail ( TOPIC ^gambit ( $$topic ) ) ^if 00A( %response != $_responsecount ) 00p{ ^end ( RULE ) } 004 } } 004 ^if 00A( %response == $_responsecount ) 00P{ ^repeat ( ) Nói với bạn thật vui } 004 `000 
+
+ServerPre: pid: 4244 anhv (hoaian) :reset Jan 30 10:59:15 2019
+Start: user:anhv bot:hoaian ip:127.0.0.1 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30 10:59:15 2ms Version:7.73 Build0: Build1:Jan30'19-10:59:15 Why:~conversation.8.0.~control.0.0 
+evserver child fork requests: 0
+  evserver: running pid: 5367
+System startup createsystem Wed Jan 30 11:03:35 2019
+Server ChatScript EVSERVER Version 7.73 pid: 5367 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:59:15 by version 7.73 "ThanhTu"
+Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 5367 7.73 compiled Dec 11 2017 12:40:44 on host local port 1024 at Wed Jan 30 11:03:35 2019 serverlog:1 userlog: 1
+evserver: parent ready (pid = 5367), fork=0
+evserver child fork requests: 0
+  evserver: running pid: 5449
+System startup createsystem Wed Jan 30 11:04:12 2019
+Server ChatScript EVSERVER Version 7.73 pid: 5449 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-10:59:15 by version 7.73 "ThanhTu"
+Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 5449 7.73 compiled Dec 11 2017 12:40:44 on host local port 1024 at Wed Jan 30 11:04:12 2019 serverlog:1 userlog: 1
+evserver: parent ready (pid = 5449), fork=0
+evserver child fork requests: 0
+  evserver: running pid: 5599
+System startup createsystem Wed Jan 30 11:05:51 2019
+Server ChatScript EVSERVER Version 7.73 pid: 5599 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=182  fact=75  heap=17708 Compiled:Jan30'19-11:05:19 by version 7.73 "ThanhTu"
+Used 12MB: dict 1411 (124kb) hashdepths 213721.1403.4. words 1411 unusedbuckets 213721 fact 287 (13kb) heap 899kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,739 fact 799,713 stack/heap 99,100KB 
+
+    *** Server WIDE OPEN to :command use.
+
+
+======== Began EV server pid 5599 7.73 compiled Dec 11 2017 12:40:44 on host local port 1024 at Wed Jan 30 11:05:51 2019 serverlog:1 userlog: 1
+evserver: parent ready (pid = 5599), fork=0
+ServerPre: pid: 5599 thanhtu (thanhtu) Xin chào Jan 30 11:21:45 2019
+
+Respond: user:thanhtu bot:thanhtu ip:127.0.0.1 () 0 Xin chào  ==> No such bot.    When:Jan30 11:21:45 2ms 
+ServerPre: pid: 5599 anhv (thanhtu) :build ThanhTu Jan 30 11:24:16 2019
+System startup ThanhTu Wed Jan 30 11:24:16 2019
+System startup createsystem Wed Jan 30 11:24:16 2019
+Server ChatScript EVSERVER Version 7.73 pid: 5599 64 bit MACH compiled Dec 11 2017 12:40:44 host=local
+Params:   dict:2097151 fact:800000 text:100000kb hash:215127 
+          buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000
+Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""
+Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-11:24:16 by version 7.73 "ThanhTu"
+Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb
+           buffer (6400kb) cache (5000kb)
+Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB 
+
+    *** Server WIDE OPEN to :command use.
+Respond: user:anhv bot:thanhtu ip:127.0.0.1 () 0 :build ThanhTu  ==> System startup ThanhTu Wed Jan 30 11:24:16 2019  ChatScript Version 7.73  compiled Dec 11 2017 12:40:44    WARNING SUMMARY:     line 2 of emotionsad.top: CONCEPT-3 Concept/topic already defined ~yes    line 1 of love.top: TOPIC-1 Concept already defined with this topic name ~love    line 4 of missingLabel.txt: At least one duplicate topic name, i.e., ~emotionhappy, which may intended if bot restrictions differ.  3 serious warnings, 0 function warnings, 0 spelling warnings, 0 case warnings, 0 substitution warnings          Finished compile    System startup createsystem Wed Jan 30 11:24:16 2019  Server ChatScript EVSERVER Version 7.73 pid: 5599 64 bit MACH compiled Dec 11 2017 12:40:44 host=local  Params:   dict:2097151 fact:800000 text:100000kb hash:215127             buffer:80x80kb cache:1x5000kb userfacts:100 outputlimit:80000 loglimit:80000  Build0:  dict=0  fact=0  heap=164 Compiled: by version  ""  Build1:  dict=176  fact=75  heap=17564 Compiled:Jan30'19-11:24:16 by version 7.73 "ThanhTu"  Used 12MB: dict 1405 (123kb) hashdepths 213727.1397.4. words 1405 unusedbuckets 213727 fact 287 (13kb) heap 899kb             buffer (6400kb) cache (5000kb)  Free 137MB: dict 2,095,745 fact 799,713 stack/heap 99,100KB         *** Server WIDE OPEN to :command use.    When:Jan30 11:24:16 191ms 
+ServerPre: pid: 5599 anhv (thanhtu) :reset Jan 30 11:24:16 2019
+Start: user:anhv bot:thanhtu ip:127.0.0.1 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30 11:24:16 1ms Version:7.73 Build0: Build1:Jan30'19-11:24:16 Why:~conversation.8.0.~control.0.0 
+ServerPre: pid: 5599 thanhtu (thanhtu) Xin chào Jan 30 11:24:24 2019
+Respond: user:thanhtu bot:thanhtu ip:127.0.0.1 (~conversation) 1 Xin chào  ==> Chào cậu  When:Jan30 11:24:24 3ms Why:~conversation.2.0.~control.9.0 
+ServerPre: pid: 5599 thanhtu (thanhtu) Thời tiết hôm nay thế nào Jan 30 11:24:37 2019
+Respond: user:thanhtu bot:thanhtu ip:127.0.0.1 (~weather) 2 Thời tiết hôm nay thế nào  ==> Nắng mưa là chuyện của trời  When:Jan30 11:24:37 2ms Why:~weather.0.0.~control.9.0 

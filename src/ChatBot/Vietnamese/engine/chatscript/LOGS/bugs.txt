@@ -1,0 +1,25 @@
+BUG in filesHoaiAn.txt at 0: #context  No such directory No such file or directory
+
+MinReleaseStackGap 98MB MinHeapAvailable 99MB
+MaxBuffers used 7 of 80
+
+Finished 0: heapusedOnEntry: 0 heapUsedNow: 882048 buffers:0 stackused: 254155712 stackusedNow:116   - 
+BUG in filesThanhTu.txt at 0: #context  No such directory No such file or directory
+
+MinReleaseStackGap 98MB MinHeapAvailable 99MB
+MaxBuffers used 7 of 80
+
+Finished 0: heapusedOnEntry: 0 heapUsedNow: 882048 buffers:0 stackused: 254155712 stackusedNow:116   - 
+No such directory No such file or directory
+
+MinReleaseStackGap 98MB MinHeapAvailable 99MB
+MaxBuffers used 3 of 80
+
+Finished 0: heapusedOnEntry: 0 heapUsedNow: 882048 buffers:0 stackused: 314932160 stackusedNow:249   - 
+BUG in topic_thanhtu_thanhtu_VIETNAMESE.txt at 1: ^thanhtu No such bot  thanhtu - thanhtu - Xin chào status: hoaian
+BUG in filesThanhTu.txt at 0: ^thanhtu No such directory No such file or directory
+
+MinReleaseStackGap 98MB MinHeapAvailable 99MB
+MaxBuffers used 2 of 80
+
+Finished 0: heapusedOnEntry: 0 heapUsedNow: 882048 buffers:0 stackused: 355945408 stackusedNow:1864   - 

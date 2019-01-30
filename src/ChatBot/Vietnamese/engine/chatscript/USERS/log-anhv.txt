@@ -1,0 +1,27 @@
+﻿No such bot  anhv -  -  status: defaultbot word not found   in topic_anhv_anonymous_VIETNAMESE.txt at 0: ^anonymous
+    No such bot  anhv -  -  status: defaultbot word not found   in topic_anhv_anonymous_VIETNAMESE.txt at 0: ^anonymous
+    Command: :build HoaiAn
+Command: :reset
+Start: user:anhv bot:hoaian ip:127.0.0.1 rand:531 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30'19-10:42:29 Version:7.73 Build0: Build1:Jan30'19-10:42:29 0:Jan30'19-10:42:29 F:0 P:0 Why:~conversation.8.0.~control.0.0 
+Start: user:anhv bot:hoaian ip: rand:531 (~conversation) 0 ==> Mùa đông lạnh quá  When:Jan30'19-10:46:18 Version:7.73 Build0: Build1:Jan30'19-10:42:29 0:Jan30'19-10:42:29 F:0 P:0 Why:~conversation.10.0.~control.0.0 
+Respond: user:anhv bot:hoaian ip: (~conversation) 1   hello ==> Chào cậu  When:Jan30'19-10:46:24 Why:~conversation.0.0.~control.9.0   F:2 
+Respond: user:anhv bot:hoaian ip: (~conversation) 2   exit ==> Cậu có vui không?  When:Jan30'19-10:46:27 Why:~conversation.12.0.~control.9.0   F:2 
+Command: :build HoaiAn
+Command: :reset
+Start: user:anhv bot:hoaian ip:127.0.0.1 rand:531 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30'19-10:54:21 Version:7.73 Build0: Build1:Jan30'19-10:54:20 0:Jan30'19-10:42:29 F:0 P:Jan30'19-10:46:27 Why:~conversation.8.0.~control.0.0 
+Command: :build HoaiAn
+Command: :reset
+Start: user:anhv bot:hoaian ip:127.0.0.1 rand:531 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30'19-10:55:28 Version:7.73 Build0: Build1:Jan30'19-10:55:27 0:Jan30'19-10:42:29 F:0 P:Jan30'19-10:46:27 Why:~conversation.8.0.~control.0.0 
+Command: :build ThanhTu
+Command: :reset
+Start: user:anhv bot:hoaian ip:127.0.0.1 rand:531 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30'19-10:59:15 Version:7.73 Build0: Build1:Jan30'19-10:59:15 0:Jan30'19-10:42:29 F:0 P:Jan30'19-10:46:27 Why:~conversation.8.0.~control.0.0 
+Start: user:anhv bot:hoaian ip: rand:531 (~conversation) 0 ==> Mùa đông lạnh quá  When:Jan30'19-11:03:12 Version:7.73 Build0: Build1:Jan30'19-10:59:15 0:Jan30'19-10:42:29 F:0 P:Jan30'19-10:46:27 Why:~conversation.10.0.~control.0.0 
+Start: user:anhv bot:hoaian ip: rand:531 (~conversation) 0 ==> Thanh niên muốn hư hỏng thì phải có tiền. Gái đẹp muốn có tiền thì phải hư hỏng  When:Jan30'19-11:05:14 Version:7.73 Build0: Build1:Jan30'19-10:59:15 0:Jan30'19-10:42:29 F:0 P:Jan30'19-10:46:27 Why:~conversation.7.0.~control.0.0 
+Command: :build ThanhTu
+Start: user:anhv bot:hoaian ip: rand:531 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30'19-11:05:19 Version:7.73 Build0: Build1:Jan30'19-11:05:19 0:Jan30'19-10:42:29 F:0 P:Jan30'19-10:46:27 Why:~conversation.8.0.~control.0.0 
+Respond: user:anhv bot:hoaian ip: (~conversation) 1   chao ban ==> Cß��u có vui không?  When:Jan30'19-11:05:38 Why:~conversation.12.0.~control.9.0   F:2 
+Respond: user:anhv bot:hoaian ip: (~conversation) 2   vui ==> Dß��o này có phim gì hay nhỉ?  When:Jan30'19-11:05:40 Why:~conversation.11.0.~control.9.0   F:2 
+Respond: user:anhv bot:hoaian ip: (~conversation) 3   khong ==> Mùa đông lạnh quá  When:Jan30'19-11:05:43 Why:~conversation.10.0.~control.9.0   F:2 
+Command: :build ThanhTu
+Command: :reset
+Start: user:anhv bot:thanhtu ip:127.0.0.1 rand:531 (~conversation) 0 ==> Đang đi trên đường. Bỗng thấy bất thường. Úp mặt vào tường. Lại thấy bình thường.  When:Jan30'19-11:24:16 Version:7.73 Build0: Build1:Jan30'19-11:24:16 0:Jan30'19-11:24:16 F:0 P:0 Why:~conversation.8.0.~control.0.0 
