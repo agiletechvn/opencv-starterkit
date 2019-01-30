@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-SCRIPT=./BINARIES/LinuxChatScript64
+DIR="`dirname \"$0\"`/BINARIES"
+SCRIPT=$DIR/LinuxChatScript64
 if [ "$(uname)" == "Darwin" ]; then
-  SCRIPT=./BINARIES/MacChatScript
+  SCRIPT=$DIR/MacChatScript
 fi
 $SCRIPT port=1024 language=VIETNAMESE login=anhv
