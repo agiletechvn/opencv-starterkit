@@ -18,7 +18,7 @@ Mỗi một topic tổ chức thành một file json. Với định dạng:
 [
   {
     "question": ["tên gì"],
-    "answer": ["Tớ tên là Hoài An"]
+    "answer": ["Tớ tên là Thanh Tú"]
   },
   {
     "question": ["tạm biệt", "chào nhé"],

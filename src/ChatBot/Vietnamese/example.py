@@ -3,11 +3,11 @@ import click
 import socket
 
 defaultUser = "anhv"
+botname = "thanhtu"
 
 
 def sendAndReceiveChatScript(text, user=defaultUser, server='127.0.0.1', port=1024, timeout=10):
     try:
-        botname = "thanhtu"
         msgToSend = '%s\u0000%s\u0000%s\u0000' % (user, botname, text)
         msgToSend = str.encode(msgToSend)
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -48,7 +48,7 @@ class ThanhTu:
 @click.option('--message', '-m')
 def main(user, message):
     response_message = ThanhTu.reply(message, user)
-    print(response_message)
+    print('{}: {}'.format(botname, response_message))
 
 
 if __name__ == "__main__":
