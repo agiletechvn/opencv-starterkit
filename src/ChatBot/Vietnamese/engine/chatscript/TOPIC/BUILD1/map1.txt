@@ -85,10 +85,10 @@ file: 0  /home/MyProjects/opencv/src/ChatBot/Vietnamese/engine/chatscript/RAWDAT
     concept: 1  ~giới_tính
     topic: 3  ~myself
         rule: 5  ~myself.0.0 u: 
-          line: 5 0  # tớ là Hoài An 
+          line: 5 0  # tớ là Thanh Tú 
           Complexity of rule ~myself.0.0- u: 1
         rule: 7  ~myself.1.0 u: 
-          line: 7 0  # tớ là Hoài An 
+          line: 7 0  # tớ là Thanh Tú 
           Complexity of rule ~myself.1.0- u: 1
         rule: 9  ~myself.2.0 u: 
           line: 9 0  # tớ là con gái 
@@ -109,7 +109,7 @@ file: 0  /home/MyProjects/opencv/src/ChatBot/Vietnamese/engine/chatscript/RAWDAT
           line: 19 0  # tớ 20 tuổi 
           Complexity of rule ~myself.7.0- u: 1
         rule: 21  ~myself.8.0 u: 
-          line: 21 0  # tớ tên là Hoài An 
+          line: 21 0  # tớ tên là Thanh Tú 
           Complexity of rule ~myself.8.0- u: 1
         rule: 23  ~myself.9.0 u: 
           line: 23 0  # tớ ở Hà Nội 

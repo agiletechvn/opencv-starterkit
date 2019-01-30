@@ -28,3 +28,11 @@ BUG in filesThanhTu.txt at 0: #context  No such directory No such file or direct
 MinReleaseStackGap 98MB MinHeapAvailable 99MB
 MaxBuffers used 2 of 80
 
+BUG in filesThanhTu.txt at 0: #context  
+BUG: Wed Jan 30 12:03:39 2019: input:0 No such directory No such file or directory
+ caller:anhv callee:thanhtu at  in sentence: cậu tên là gì?
+No such directory No such file or directory
+
+MinReleaseStackGap 98MB MinHeapAvailable 99MB
+MaxBuffers used 7 of 80
+
