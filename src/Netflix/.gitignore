@@ -1,2 +1,3 @@
 data
-data.csv
+*.csv
+*.npz
