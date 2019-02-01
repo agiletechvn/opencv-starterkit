@@ -1,7 +1,7 @@
 USERS/topic_chung_thanhtu_VIETNAMESE.txt
-jul2116 Jan30'19-11:54:01 Jan30'19-12:05:23 1548824300-13.2.0.8.9.0 |
-1 142433 0 DY 0 16 16 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
-~conversation ~myself ~entertainment #pending
+jul2116 Jan30'19-11:54:01 Feb01'19-10:21:26 1548824300-13.2.0.8.9.0 |
+1 142435 0 DY 0 16 16 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~entertainment ~conversation ~myself #pending
 #`end topics
 $shutup=1
 $singleresponse=1
@@ -42,6 +42,8 @@ $cs_time=0
  cậu bao nhiêu tuổi?
  cậu sống ở đâu?
  cậu có biết hát không?
+ chào bạn
+ bạn tên gì
 #`end user
  Chào cậu
  Chào cậu
@@ -66,4 +68,6 @@ $cs_time=0
  Tớ 20 tuổi
  Tớ ở Hà Nội
  Mình hợp nhau đến như vậy, thế nhưng không phải là yêu ♪♪♪
+ Chào cậu
+ Tớ tên là Thanh Tú
 #`end chatbot
