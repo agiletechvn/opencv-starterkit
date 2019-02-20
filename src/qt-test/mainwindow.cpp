@@ -35,7 +35,7 @@ void MainWindow::on_pushButton_clicked()
     }
     else
     {
-        video.open("rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov");
+        video.open("../Tracking/videos/chaplin.mp4");
         ui->pushButton->setText("Stop");
     }
 }

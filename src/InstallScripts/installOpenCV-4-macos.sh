@@ -80,6 +80,21 @@ cd opencv
 mkdir build
 cd build
 
+# cmake -D CMAKE_BUILD_TYPE=RELEASE \
+#             -D CMAKE_INSTALL_PREFIX=$cwd/installation/OpenCV-"$cvVersion" \
+#             -D INSTALL_C_EXAMPLES=ON \
+#             -D INSTALL_PYTHON_EXAMPLES=ON \
+#             -D WITH_TBB=ON \
+#             -D WITH_V4L=ON \
+#             -D OPENCV_SKIP_PYTHON_LOADER=ON \
+#             -D CMAKE_PREFIX_PATH=$QT5PATH \
+#             -D CMAKE_MODULE_PATH="$QT5PATH"/lib/cmake \
+#             -D OPENCV_PYTHON3_INSTALL_PATH=~/.virtualenvs/OpenCV-"$cvVersion"-py3/lib/python3.7/site-packages \
+#         -D WITH_QT=ON \
+#         -D WITH_OPENGL=ON \
+#         -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \
+#         -D BUILD_EXAMPLES=ON ..
+
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
             -D CMAKE_INSTALL_PREFIX=$cwd/installation/OpenCV-"$cvVersion" \
             -D INSTALL_C_EXAMPLES=ON \
@@ -89,11 +104,11 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
             -D OPENCV_SKIP_PYTHON_LOADER=ON \
             -D CMAKE_PREFIX_PATH=$QT5PATH \
             -D CMAKE_MODULE_PATH="$QT5PATH"/lib/cmake \
-            -D OPENCV_PYTHON3_INSTALL_PATH=~/.virtualenvs/OpenCV-"$cvVersion"-py3/lib/python3.7/site-packages \
+            -D OPENCV_PYTHON3_INSTALL_PATH="$(python -c 'import site; print(site.getsitepackages()[0])')" \
         -D WITH_QT=ON \
         -D WITH_OPENGL=ON \
-        -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \
-        -D BUILD_EXAMPLES=ON ..
+        -D OPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules \
+        -D BUILD_EXAMPLES=ON ..        
         
 make -j$(sysctl -n hw.physicalcpu)
 make install
