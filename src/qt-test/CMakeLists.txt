@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/..)
 SET(OpenCV_DIR /usr/local/lib/cmake/opencv4)
 
-set(QT_VERSION_REQ "5.2")
+set(QT_VERSION_REQ "5.12")
 
 PROJECT(qt-test)
 

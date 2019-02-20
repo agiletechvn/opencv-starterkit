@@ -21,9 +21,14 @@ HEADERS  += mainwindow.h \
 
 FORMS    += mainwindow.ui
 
-LIBS += -L/usr/local/lib
+INCLUDEPATH += /usr/local/include
+LIBS += -L/usr/local/lib \
+     -lopencv_core \
+     -lopencv_imgproc \
+     -lopencv_videoio \
+     -lopencv_highgui \
+     -lopencv_objdetect
 
-
-QT_CONFIG -= no-pkg-config
-CONFIG  += link_pkgconfig
-PKGCONFIG += opencv
+#QT_CONFIG -= no-pkg-config
+#CONFIG  += link_pkgconfig
+#PKGCONFIG += opencv

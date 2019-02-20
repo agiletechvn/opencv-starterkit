@@ -12,22 +12,22 @@ class MainWindow;
 
 class MainWindow : public QMainWindow
 {
-    Q_OBJECT
+  Q_OBJECT
 
-  public:
-    explicit MainWindow(QWidget *parent = 0);
-    bool isCameraOn;
-    ~MainWindow();
+public:
+  explicit MainWindow(QWidget *parent = 0);
+  bool isCameraOn;
+  ~MainWindow();
 
-  private slots:
-    void on_pushButton_clicked();
-    void updateView(void);
+private slots:
+  void on_pushButton_clicked();
+  void updateView(void);
 
-  private:
-    Ui::MainWindow *ui;
-    QGraphicsScene scene;
-    cv::VideoCapture video;
-    cv::Mat frame;
+private:
+  Ui::MainWindow *ui;
+  QGraphicsScene scene;
+  cv::VideoCapture video;
+  cv::Mat frame;
 };
 
 #endif // MAINWINDOW_H

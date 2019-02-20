@@ -47,11 +47,11 @@ void MainWindow::updateView()
     cv::Mat frame;
     while (1)
     {
+
         video >> frame;
-        if (!frame.empty())
-            break;
+        if (frame.empty())
+            return;
     }
-    if (frame.empty())
-        return;
+
     ui->camViewer->setImage(QImage((const unsigned char *)(frame.data), frame.cols, frame.rows, QImage::Format_RGB888).rgbSwapped());
 }
