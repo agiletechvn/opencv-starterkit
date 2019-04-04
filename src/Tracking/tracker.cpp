@@ -46,7 +46,7 @@ int main(int argc, char **argv)
 #endif
     // Read video
     VideoCapture video("videos/chaplin.mp4");
-
+    video.set(cv::CAP_PROP_EXPOSURE, -4);
     // Exit if video is not opened
     if (!video.isOpened())
     {
@@ -97,7 +97,7 @@ int main(int argc, char **argv)
         putText(frame, trackerType + " Tracker", Point(100, 20), FONT_HERSHEY_SIMPLEX, 0.75, Scalar(50, 170, 50), 2);
 
         // Display FPS on frame
-        putText(frame, "FPS : " + SSTR(int(fps)), Point(100, 50), FONT_HERSHEY_SIMPLEX, 0.75, Scalar(50, 170, 50), 2);
+        putText(frame, "FPS : " + std::to_string(int(fps)), Point(100, 50), FONT_HERSHEY_SIMPLEX, 0.75, Scalar(50, 170, 50), 2);
 
         // Display frame.
         imshow("Tracking", frame);

@@ -17,3 +17,4 @@ MACRO(add_example name)
 ENDMACRO()
 
 add_example(face_detection_opencv_dnn)
+add_example(face_detection_dlib_mmod)

@@ -43,7 +43,12 @@ RUN if [ "FAST_BUILD" = "true" ] ; then
 # easiest way
 # mkdir build
 # cd build
-# cmake -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON -DBUILD_EXAMPLES=ON -DENABLE_PRECOMPILED_HEADERS=OFF ..
+# cmake -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules \
+# -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/usr/local \
+# -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON -DWITH_XINE=ON \
+# -DWITH_FFMPEG=ON WITH_V4L=ON -DPYTHON_EXECUTABLE=$(which python) \
+# -DOPENCV_PYTHON3_INSTALL_PATH=`python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"`/../dist-packages \
+# -DBUILD_EXAMPLES=ON -DENABLE_PRECOMPILED_HEADERS=OFF ..
 # make -j4 && make install && ldconfig
 # rm -rf OpenCV
 # if have 8 cores then make -j8

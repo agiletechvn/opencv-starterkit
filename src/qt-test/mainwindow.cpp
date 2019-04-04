@@ -36,6 +36,7 @@ void MainWindow::on_pushButton_clicked()
     else
     {
         video.open("../Tracking/videos/chaplin.mp4");
+        video.set(cv::CAP_PROP_EXPOSURE, -4);
         ui->pushButton->setText("Stop");
     }
 }

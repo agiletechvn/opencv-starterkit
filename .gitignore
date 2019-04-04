@@ -5,6 +5,6 @@ build
 *.weights
 *_out_py.avi
 *_out.jpg
-
+.vscode
 # opencv source repo
 opencv-*
